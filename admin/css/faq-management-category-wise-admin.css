@@ -1,0 +1,54 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*
+ * Category page rules
+ */
+.faq-categories-wrapper .button-action-wrapper,
+.faq-wrapper .button-action-wrapper
+{ margin: 15px 0}
+.faq-categories-wrapper .button-action-wrapper button:first-child,
+.faq-wrapper .button-action-wrapper button:first-child{
+    margin-right: 15px;
+}
+.faq-categories-wrapper .faq-categories-notices,
+.faq-wrapper .faq-notices{
+    padding:15px 10px;
+    margin-bottom: 15px;
+    display: none;
+    border-radius: 6px;
+}
+.faq-categories-wrapper .faq-categories-notices p,
+.faq-wrapper .faq-notices p{margin:0}
+.faq-categories-wrapper .add-new-faq-category-wrapper,
+.faq-wrapper .add-new-faq-wrapper{display:none;}
+.faq-categories-wrapper .add-new-faq-category-wrapper,
+.faq-categories-wrapper .list-faq-categories,
+.faq-wrapper .add-new-faq-wrapper,
+.faq-wrapper .list-faq
+{
+    padding:15px;
+    margin-bottom: 15px;
+}
+
+.faq-categories-wrapper .list-faq-categories table,
+.faq-wrapper .list-faq table{width: 100%}
+.faq-categories-wrapper .list-faq-categories table th,
+.faq-categories-wrapper .list-faq-categories table td,
+.faq-wrapper .list-faq table th,
+.faq-wrapper .list-faq table td
+{text-align: center}
+.faq-categories-wrapper .list-faq-categories .edit_category,
+.faq-wrapper .list-faq .edit_faq{
+    margin-right: 15px;
+}
+
+/*
+ * Faq page rules
+ */
+
+/*
+ * Settings page rules
+ */
